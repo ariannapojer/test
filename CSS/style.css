@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+  font-family: 'PT Sans Narrow', sans-serif; 
+  text-align:center;
+}
+nav ul li {
+    display: inline-block;
+    font-weight: 700;
+
+  }
+  #homelogo {
+    height: 200px;
+    width: auto;
+  }
+  header {
+    background-color:#EE688D ;
+    color:#38353B;
+}
+.whitelink {
+    color:#38353B;
+}
+.active {
+  color: #38353B; 
+  background-color:white;
+  border-radius: 3px 3px 0px 0px;
+}
+header, section {
+    padding: 5% 5% 0px 5%; 
+} 
+.nounderline {
+  text-decoration: none;
+  padding: 10px 10px 0px 10px
+}
+img:hover {
+  opacity: 0.5;
+}
+img {
+  opacity: 1;
+  transition: 0.25 ease-in-out;
+}
